@@ -1,0 +1,11 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block title %}Bom Gosto{% endblock %}
+
+{% block content %}
+    <h2 style="font-size: 40px;">
+        Bom Gosto {{ nome }}
+    </h2>
+    <img src="{% static 'img/restaurante.jpg' %}" alt="Foto do Restaurante">
+{% endblock %}

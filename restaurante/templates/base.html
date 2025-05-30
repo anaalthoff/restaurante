@@ -5,13 +5,13 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>{% block title %}Bom Gosto{% endblock %} </title>
+    <title>{% block title %}Site do Restaurante{% endblock %} </title>
     <link rel="stylesheet" href="{% static 'css/estilo.css' %}">
 </head>
 
 <body>
     <header class="header">
-        <img src="{% static 'img/logo.png' %}" alt="Restarante Logo" class="logo">
+        <img src="{% static 'img/logo.png' %}" alt="Restaurante Logo" class="logo">
         <nav>
             <div class="dropdown">
                 <button><a href="{% url 'index' %}">Início</a></button>
