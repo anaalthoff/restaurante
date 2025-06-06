@@ -21,4 +21,5 @@ from . import views
 urlpatterns = [
     path('', views.index, name = 'index'),
     path('historia', views.historia, name = 'historia'),
+    path('cardapio', views.cardapio, name = 'cardapio'),
 ]

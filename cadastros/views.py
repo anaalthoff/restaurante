@@ -7,3 +7,6 @@ def index (request):
 
 def historia(request):
     return render(request, 'historia.html', {'nome' : 'Bom Gosto'})
+
+def cardapio(request):
+    return render(request, 'cardapio.html', {'nome' : 'Bom Gosto'})
